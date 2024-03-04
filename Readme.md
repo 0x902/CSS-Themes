@@ -20,40 +20,59 @@ To start using this CSS theme in your project, follow these steps:
 2. **Include the CSS file:** Link the `style.css` file in your HTML document using a `<link>` tag:
 
     ```html
-    <link rel="stylesheet" href="path/to/style.css" />
+    <link rel="stylesheet" href="path/to/elements.css" />
     ```
 
-3. **Apply styles:** Add appropriate classes to your HTML elements to apply the desired styles. Refer to the provided classes in the CSS file and customize them as needed.
+3. **Apply styles:** Add appropriate classes to HTML elements to apply the desired styles.
 
 ## Examples
 
-Here are some examples of how to use the CSS styles in your HTML code:
+## Typography
+
+### Headings
+
+-   `h1`: Font size of 4rem.
+-   `h2`: Font size of 3.6rem.
+-   `h3`: Font size of 3.2rem.
+-   `h4`: Font size of 2.8rem.
+-   `h5`: Font size of 2.4rem.
+-   `h6`: Font size of 2rem.
+
+### Labels
+
+-   `label.s-label`: Font size of 1.2rem.
+-   `label.m-label`: Font size of 1.4rem.
+-   `label.l-label`: Font size of 1.6rem.
+
+### Paragraphs
+
+-   `p`: Font size of 1.6rem.
+-   `p.s-p`: Font size of 1.4rem.
+-   `p.m-p`: Font size of 1.6rem.
+-   `p.l-p`: Font size of 1.8rem.
 
 ### Buttons
 
-```html
-<button class="btn-primary">Primary Button</button>
-<button class="btn-secondary">Secondary Button</button>
-```
+-   `button.btn-primary`: Primary button style.
+-   `button.btn-secondary`: Secondary button style.
+-   `button.btn-fab`: Floating action button style positioned fixed at the bottom right corner.
 
-### Form Inputs
+## Form Elements
 
-```html
-<input type="text" class="input-primary" placeholder="Enter your name" />
-<textarea class="input-primary" placeholder="Enter your message"></textarea>
-```
+-   `input.input-primary`: Input style with a black border.
+-   `textarea`: Default textarea style with specific padding, border, and background color.
+-   `textarea.input-primary`: Textarea style with a black border.
+-   `.container-checkbox`: Style for custom checkbox elements.
+-   `.container-radio`: Style for custom radio button elements.
 
-### Tables
+## Icons
 
-```html
-<table>
-    <tr>
-        <th>Name</th>
-        <th>Email</th>
-    </tr>
-    <tr>
-        <td>John Doe</td>
-        <td>john@example.com</td>
-    </tr>
-</table>
-```
+-   `img.s-icon`: Small icon.
+-   `img.m-icon`: Medium icon.
+-   `img.l-icon`: Large icon.
+
+## Behavioral Classes
+
+-   `.block`: Maximum width of 1000px and centered alignment.
+-   `.hidden-none`: Hides the element by setting its display property to none.
+-   `.hidden-opacity`: Sets the opacity of the element to 0, making it invisible.

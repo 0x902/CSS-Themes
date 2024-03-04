@@ -141,11 +141,12 @@ button.btn-fab {
 }
 
 /* TEXT INPUT ------------------------------------------------------------------------ */
-input {
+input,
+textarea {
     border-radius: var(--rounding);
 }
 
-input[type="text"] {
+input {
     padding: 15px 20px;
     outline: none;
     border: none;
@@ -154,8 +155,18 @@ input[type="text"] {
     background-color: var(--grey);
 }
 
-input[type="text"].input-primary {
+input.input-primary {
     border: 2px solid black;
+}
+
+textarea {
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.8rem;
+    background-color: var(--grey);
+    resize: none;
 }
 
 /* CUSTOM CHECKBOX ------------------------------------------------------------------------ */

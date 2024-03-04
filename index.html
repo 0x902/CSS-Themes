@@ -5,19 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>0x902 &mdash; Theme</title>
 
-        <link rel="stylesheet" href="theme_1.css" />
+        <link rel="stylesheet" href="components.css" />
         <style>
+            .headings,
             .icons,
-            .paragraphs {
+            .paragraphs,
+            .inputs {
                 display: flex;
                 flex-direction: column;
                 align-items: start;
                 gap: 20px;
             }
+
+            .inputs {
+                gap: 0px;
+            }
         </style>
     </head>
     <body
-        style="padding: 50px; display: flex; flex-direction: column; gap: 50px"
+        class="block"
+        style="
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+            padding: 20px 0;
+        "
     >
         <div class="headings">
             <h1>lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -133,9 +145,9 @@
         </div>
         <hr />
         <div class="icons">
-            <img class="s-icon" src="anchor.svg" alt="" />
-            <img class="m-icon" src="anchor.svg" alt="" />
-            <img class="l-icon" src="anchor.svg" alt="" />
+            <img class="s-icon" src="icon.svg" alt="" />
+            <img class="m-icon" src="icon.svg" alt="" />
+            <img class="l-icon" src="icon.svg" alt="" />
         </div>
         <hr />
         <div class="tables">
